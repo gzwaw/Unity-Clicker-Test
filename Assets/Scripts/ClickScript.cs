@@ -19,6 +19,7 @@ public class ClickScript : MonoBehaviour
         //TurnToMouse();
     }
 
+
     private Vector3 GetMousePosition()
     {
         Vector2 mouseScreenPos = Mouse.current.position.ReadValue();
